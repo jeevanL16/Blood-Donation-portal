@@ -1,0 +1,133 @@
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the logo image */
+.navbar-brand img {
+  width: 60px;          
+  height: 6s0px;
+  margin-right: 0.7rem; 
+  object-fit: contain;  
+}
+
+.hero-section {
+background-image: url('../images/tt.jpg');  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 60vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* donor  form*/
+
+.dnr{
+      max-width: 800px;
+      margin: 100px auto;
+      padding: 30px;
+      background:transparent;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-image: url('../images/');
+  background-size: cover;
+   background-repeat: no-repeat;
+  background-position: center; 
+}
+#dnrbdy{ background-image: url('../images/cb.jpg');
+  background-size: cover;}
+/* donor eligibiliy criteria */
+  .dd {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: white;
+  color: red;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  text-align: left;
+}
+
+
+.dd h2 {
+  text-align: center;
+}
+.abt {
+  background-image: url('../images/hero.jpg');
+  background-size: cover;
+  
+}
+
+/* contact  form*/
+ .cnt {
+      max-width: 800px;
+      margin: 100px auto;
+      padding: 30px;
+      background:transparent;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        background-image: url('../images/hands.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+    }
+  #cntbdy{background-image: url('../images/hands.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;}  
+
+    /*  request*/
+    .rform{
+      
+      max-width: 800px;
+      margin: 100px auto;
+      padding: 30px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-image: url('../images/vi.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+    }
+
+      .bg
+      {  background-image: url('../images/6130237.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+      }
+jpg
+/* feedback */
+.fed{
+      max-width: 800px;
+      height: 500px;
+      margin: 100px auto;
+      padding: 100px;
+      background:transparent;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+          background-image: url(/static/images/.jpg);
+           background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#fedbody{background-image: url(/static/images/9844729.jpg);
+           background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+/* admin */
+#adm {
+ background-color: #f5f5f5;
+      background-image: url(/static/images/adm.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+  background-position: center;
+}

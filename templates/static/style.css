@@ -1,0 +1,75 @@
+.feedback-entry {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    animation: fadeInUp 0.8s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  #blood-availability {
+    animation: fadeIn 1.5s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+
+/* @app.route('/') 
+def index():
+    conn = MySQLdb.connect(host="localhost", user="root", passwd="jeevan", db="blood_portal")
+    cursor = conn.cursor()
+    cursor.execute("SELECT name, message FROM feedback")
+    feedbacks = cursor.fetchall()
+    cursor.close()
+    conn.close()
+    /* return render_template('index.html', feedbacks=feedbacks)
+        <div class="tab-content mt-3" id="dashboardTabsContent">
+      <!-- Donors Tab -->
+      <div class="tab-pane fade show active" id="donors" role="tabpanel">
+        <div class="d-flex justify-content-end mb-2">
+          <a href="/export_donors_excel" class="btn btn-success me-2">Export Excel</a>
+        </div>
+        <div class="table-responsive">
+          <table class="table table-bordered table-hover">
+            <thead class="table-danger">
+              <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Blood Group</th>
+                <th>Contact</th>
+                <th>Location</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for donor in donors %}
+              <tr>
+                <td>{{ donor.name }}</td>
+                <td>{{ donor.age }}</td>
+                <td>{{ donor.gender }}</td>
+                <td>{{ donor.blood_group }}</td>
+                <td>{{ donor.contact }}</td>
+                <td>{{ donor.location }}</td>
+              
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+ */
