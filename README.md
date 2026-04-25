@@ -1,6 +1,6 @@
-# Blood Portal
+# Blood Donation Portal
 
-A Flask-based Blood Donation Portal where users can register as donors or request blood, and an admin can manage the operations.
+A web-based Blood Donation Portal developed as a BCA project using Python Flask and MySQL. The system manages donor registration, blood requests, and admin monitoring.
 
 ## Features
 
